@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/birdnet-clone/static/css/main.386fb435.css",
+    "main.js": "/birdnet-clone/static/js/main.3f2509a9.js",
+    "static/media/invest.svg": "/birdnet-clone/static/media/invest.d9e4b62384c8877beae6.svg",
+    "index.html": "/birdnet-clone/index.html",
+    "main.386fb435.css.map": "/birdnet-clone/static/css/main.386fb435.css.map",
+    "main.3f2509a9.js.map": "/birdnet-clone/static/js/main.3f2509a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386fb435.css",
+    "static/js/main.3f2509a9.js"
+  ]
+}
