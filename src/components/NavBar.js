@@ -17,13 +17,13 @@ function NavBar() {
         <nav>
           <div className=" container nav-items">
             <div className=" nav-section">
-              <Link to="/" className="logo">
+              <Link to="/birdnet-clone" className="logo">
                 <img src="./images/logo-dark.svg" />
               </Link>
               <div>
                 <ul className={click ? "links active" : "links"}>
                   <li className="product">
-                    <Link to="/">
+                    <Link to="/birdnet-clone">
                       Products
                       <i
                         className="fa fa-caret-down prod-menu"
