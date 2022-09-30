@@ -9,13 +9,12 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <NavBar/>
+      <NavBar />
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-       </Routes>
-        
+        <Route path="/birdnet-clone" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
