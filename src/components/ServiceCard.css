@@ -1,0 +1,25 @@
+.card-services {
+    width: 200px;
+    padding: 2rem 0;
+    text-align: center;
+    border: transparent;
+    border-radius: .4rem;
+    transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 1.5rem;
+}
+
+.card-services img {
+    width: 50%;
+}
+
+.card-services > p {
+    font-size: .9rem;
+    padding: 0 .5rem;
+    color: var(--text-color);
+}
+
+.card-services:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: var(--transition);
+}

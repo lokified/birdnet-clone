@@ -1,0 +1,152 @@
+.home-section {
+    margin-top: 8rem;
+}
+
+.intro-chip {
+    color: rgb(38, 119, 65);
+    background-color: rgb(222, 243, 229);
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    font-weight: 800;
+    font-size: .9rem;
+}
+
+.hero-section {
+    padding-top: 10px;
+}
+
+.hero-header {
+    font-size: 55px;
+    color: black;
+    font-weight: 900;
+}
+
+.hero-image-section img {
+    margin-top: -50px;
+    width: 85%;
+    margin-left: 70px;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.hero-download-img {
+    margin-top: 4rem;
+}
+
+.hero-download-img img {
+    margin-right: 1rem;
+}
+
+.check-section {
+    padding-top: 6rem;
+    color: var(--text-color);
+}
+
+.check-header {
+    font-size: 3rem;
+    color: black;
+}
+
+.check-desc-1 {
+    font-size: 1.4rem;
+}
+
+.check-desc-2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.check-img img {
+    width: 70%;
+    margin-left: 9rem;
+}
+
+.entry-section {
+    padding-top: 6rem;
+}
+
+.entry-section p {
+    color: var(--text-color);
+}
+
+.entry-img img {
+    width: 70%;
+    margin-left: 5rem;
+}
+
+.account-section {
+    padding: 7rem 0;
+}
+
+.account-section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    width: 70%;
+    color: var(--text-color);
+}
+
+.account-images {
+    margin-top: 3rem;
+}
+
+.account-images img {
+   margin-right: 1rem;
+}
+
+.account-des img {
+    width: 70%;
+    margin-left: 5rem;
+}
+
+.checkout-section {
+    padding: 7rem 0;
+    color: var(--text-color);
+}
+
+.checkout-img img {
+    width: 80%;
+    margin: -2rem 0 0 3rem;
+}
+
+.checkout-desc h1 {
+    color: black;
+}
+
+.faq-section {
+    margin: 4rem 20%;
+}
+
+
+/* tablets */
+@media screen and (max-width : 800px) {
+
+    .hero-image-section img{
+        margin: 0 3rem;
+
+    }
+
+    .check-img img{
+        margin: auto;
+    }
+    .entry-img img {
+        margin: 0 3rem;
+    }
+    .account-des img{
+       margin: 2rem 2rem 0;
+
+    }
+    .checkout-img img {
+         margin: 0 3rem;
+
+    }
+
+}
+
+@media screen and (max-width : 500px)  {
+    .home-section h1 {
+        font-size: 2rem;
+    }
+}

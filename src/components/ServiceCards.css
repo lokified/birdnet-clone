@@ -1,0 +1,9 @@
+.service-section {
+    padding-top: 5rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

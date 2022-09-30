@@ -1,0 +1,49 @@
+.faqs{
+    border-bottom: 1px solid rgb(205, 206, 214);
+    padding: .2rem;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+.question-section {
+    display: flex;
+    justify-content: space-between;
+}
+.question {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.question-section button {
+    display: inline-block;
+    background: transparent;
+    font-size: 1.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.question-section button i{
+    color: rgb(198, 203, 218);
+}
+
+.answer {
+    display: none;
+    transition: var(--transition);
+}
+.answer p{
+    color: var(--text-color);
+}
+.answer.active {
+    display: block;
+    transition: var(--transition);
+}
+
+.faq-l {
+    margin: 4rem 20%;
+}
+
+@media screen and (max-width : 800px) {
+.faq-l {
+    margin: 4rem 5%;
+}
+}
