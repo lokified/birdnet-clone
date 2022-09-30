@@ -18,7 +18,7 @@ function NavBar() {
           <div className=" container nav-items">
             <div className=" nav-section">
               <Link to="/" className="logo">
-                <img src="/images/logo-dark.svg" />
+                <img src="./images/logo-dark.svg" />
               </Link>
               <div>
                 <ul className={click ? "links active" : "links"}>
