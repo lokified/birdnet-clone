@@ -18,9 +18,9 @@ export const Footer = () => {
 
               <div className="footer-main">
                 <div className="footer-section-1">
-                  <img src="./images/logo-white.svg" />
+                  <h3>Logo goes here </h3>
                   <div>
-                    Bird is an international banking app that offers to non-US
+                    <strong>Product name </strong> is an international banking app that offers to non-US
                     residents and businesses a fully featured US-domiciled, FDIC
                     insured bank account with debit cards, international and
                     local transfers, wealth building account, payment
@@ -35,7 +35,7 @@ export const Footer = () => {
                     <p>Wealth Building Account</p>
                     <p>Cross-border & Local Transfer</p>
                     <p>Account Consolidation</p>
-                    <p>Bird Checkout</p>
+                    <p><strong>Product name </strong> Checkout</p>
                   </div>
                 </div>
 
@@ -60,7 +60,7 @@ export const Footer = () => {
               </div>
 
               <div className="footer-end">
-                <p>2022 Bird.All right reserved</p>
+                <p>2022 <strong>Company name </strong>.All right reserved</p>
 
                 <div className="socials">
                   <img src="./images/twitter.svg" />

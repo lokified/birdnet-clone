@@ -6,7 +6,6 @@ nav{
     z-index: 11;
     background: var(--primary-color);
     transition: var(--transition);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav-section {
@@ -60,7 +59,7 @@ nav{
     width: 240px;
     background-color: white;
     top: 4rem;
-    left: 4.5rem;
+    left: 6.5rem;
     border-radius: .3rem;
     display: none;
 }

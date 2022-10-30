@@ -115,10 +115,6 @@
     color: black;
 }
 
-.faq-section {
-    margin: 4rem 20%;
-}
-
 
 /* tablets */
 @media screen and (max-width : 800px) {

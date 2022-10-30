@@ -20,9 +20,10 @@ export const Home = () => {
                 </h6>
 
                 <p className="hero-description">
-                  Bird is a fully featured US bank account for non-US residents
-                  (Africans) and its deposit is fully protected by US
-                  government’s Federal Deposit Insurance Corporation (FDIC)
+                  <strong>Company name </strong> is a fully featured US bank
+                  account for non-US residents (Africans) and its deposit is
+                  fully protected by US government’s Federal Deposit Insurance
+                  Corporation (FDIC)
                 </p>
 
                 <div className="hero-download-img">
@@ -75,9 +76,10 @@ export const Home = () => {
                 <p className="check-desc-1">
                   Conveniently send and receive money in multiple currencies,
                   make large payments for investment, pay mortgages, and other
-                  bills across all borders. Bird provides easy access to
-                  international banking and digital financial services for the 1
-                  billion people on the emerging market.
+                  bills across all borders. <strong>Company name </strong>
+                  provides easy access to international banking and digital
+                  financial services for the 1 billion people on the emerging
+                  market.
                 </p>
               </div>
             </div>
@@ -112,10 +114,10 @@ export const Home = () => {
                 <img src="./images/checkout.svg" />
               </div>
               <div className="col-md-6 checkout-desc">
-                <h1>Checkout with BirdNet</h1>
+                <h1>Checkout with <strong>Company name </strong></h1>
 
                 <p className="check-desc-1">
-                  You can integrate the BirdNet fast checkout controls into your
+                  You can integrate the <strong>Company name </strong> fast checkout controls into your
                   website or app. It accepts local and international payments
                   for businesses of all sizes.
                 </p>
@@ -131,7 +133,9 @@ export const Home = () => {
           <section>
             <div className="container faq-section">
               <h1 className="text-center">Frequently asked questions</h1>
-              <p className="text-center">Everything you need to know about the product</p>
+              <p className="text-center">
+                Everything you need to know about the product
+              </p>
               <Faqs />
             </div>
           </section>
